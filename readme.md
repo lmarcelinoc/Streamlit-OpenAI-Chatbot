@@ -1,6 +1,6 @@
 # Streamlit OpenAI Chatbot
 
-This repo contains the completed code for the YouTube tutorial video <a href="#">From Zero to Hero: Building a Streamlit & OpenAI Chatbot</a>
+This repo contains the completed code for the YouTube tutorial video <a href="#">From Zero to Hero: Building a Streamlit & OpenAI Chatbot with streaming response</a>
 
 ### Chatbot Features include:
 - Ability to select OpenAI GPT model
