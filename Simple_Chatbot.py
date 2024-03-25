@@ -5,16 +5,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-openai_api_key = Config.OPENAI_API_KEY
-
 st.set_page_config(
     page_title="Streamlit OpenAI Chatbot",
     initial_sidebar_state="expanded"
 )
 
 st.title("Streamlit OpenAI Chatbot")
-
-messages = []
 
 # check to see if messages already exist in the session state
 if "messages" not in st.session_state:
