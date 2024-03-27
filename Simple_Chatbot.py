@@ -12,10 +12,6 @@ st.set_page_config(
 
 st.title("Streamlit OpenAI Chatbot")
 
-# check to see if messages already exist in the session state
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-
 # sets up sidebar nav widgets
 with st.sidebar:   
     st.markdown("# Chat Options")
